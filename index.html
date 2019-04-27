@@ -1,33 +1,82 @@
-<head>
-  <title>Micke Lisinge</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/font-awesome.min.css">
-  <style>
-    body {
-      text-align: center;
-      color: #909090;
-      font-family: 'Helvetica', 'Avenir', 'Arial', sans-serif;
-    }
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Micke Lisinge</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="description" content="Micke is a full-stack developer and tech lead based in Stockholm, Sweden. He works at ApoEx and helps to deliver pharmaceuticals to all parts of Sweden!">
+    <style>
+      body {
+        font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        color: #102a42;
+      }
 
-    a {
-      color: #909090;
-    }
+      a {
+        color: #102a42;
+      }
 
-    a:hover {
-      color: #F40000;
-    }
+      a:hover {
+        color: #F40000;
+      }
 
-    img.avatar {
-      border-radius: 50%;
-    }
+      .about-container {
+        max-width: 40em;
+        margin: 0 auto;
+        padding: 0 1em;
+      }
 
-    .fa {
-      font-size: 2em;
-    }
-  </style>
-</head>
-<img src="https://gravatar.com/avatar/48f8ec33d3e9fdca98cdbe9ecd954939?s=200" class="avatar" alt="avatar">
-<p>Hi, I'm Micke!</p>
-<p>
-  <a href="https://github.com/micke"><i class="fa fa-github"></i></a>
-</p>
+      img.avatar {
+        border-radius: 50%;
+        margin: 1em auto;
+        display: block;
+      }
+
+      .fa, .fab {
+        font-size: 3em;
+      }
+
+      .links {
+        text-align: center;
+      }
+
+      .links a {
+        color: #909090;
+      }
+
+      .links a:hover {
+        color: #F40000;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="about-container">
+      <img src="https://gravatar.com/avatar/48f8ec33d3e9fdca98cdbe9ecd954939?s=200" class="avatar" alt="avatar">
+      <h1>Hi, I'm Micke! 👋</h1>
+      <p>
+        I'm a full-stack developer and tech lead based in Stockholm, Sweden.</br>
+        I work at ApoEx where i help to deliver pharmaceuticals to all parts of Sweden!
+      </p>
+      <p>
+        Always striving to create a fault-tolerant, highly available and safe infrastructure</br>
+        using technologies such as Kubernetes, PostgreSQL, Redis and Memcached.</br>
+        I enjoy developing using TDD in a agile environment with Ruby, Elixir and
+        Scala in the back-end and Javascript in the front-end.
+      </p>
+      <p>
+        Specializing in deploying in a cloud environment I've worked with multiple platforms
+        but I prefer to work with Google Cloud Platform and AWS.
+      </p>
+      <p>
+        You can find some of my work on Github where i try to contribute to the open-source world as often as possible.</br>
+        Feel free to get in contact with me by sending me an email, you can also find my public-key in both <a href="./keys/ECC.asc">ECC</a> and <a href="./keys/RSA.asc">RSA</a>.
+      </p>
+      <p class="links">
+        <a href="https://github.com/micke"><i class="fab fa-github"></i></a>
+        <a href="mailto:hi@micke.me"><i class="fa fa-envelope"></i></a>
+      </p>
+    </div>
+  </body>
+</html>
